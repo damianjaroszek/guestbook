@@ -1,0 +1,6 @@
+<% @posts.each do |post| %>
+<blockquote>
+    <p><%= post.body %></p>
+    <footer><cite><%= post.author %></cite></footer>
+</blockquote>
+<% end %>
